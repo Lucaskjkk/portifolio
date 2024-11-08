@@ -28,6 +28,19 @@ export default function AboutPage() {
             <li>Criação de dashboards com Power BI</li>
           </ul>
         </div>
+
+        <div className="w-full h-px bg-zinc-800" />
+
+        <div className="max-w-2xl mx-auto lg:mx-0 space-y-4">
+          <h3 className="text-2xl font-semibold text-zinc-100">Meus Cursos e BootCamps</h3>
+          <ul className="space-y-2 text-zinc-400">
+            <li>BootCamp - BackEnd .NET (105 horas)</li>
+            <li>Udemy - Python para leitura de dados (80 horas)</li>
+            <li>Udemy - IT Security (50 horas)</li>
+            <li>Udemy - Desenvolvimento de API com Python (93 horas)</li>
+            <li>Udemy - Desenvolvimento de um sistema de ERP com TypeScript, Python, nodejs e integração com MySql (103 horas)</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

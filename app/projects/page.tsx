@@ -71,7 +71,7 @@ export default function ProjectsPage() {
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2">
           {projects.map((project) => (
             <Card key={project.slug}>
-              <Link href={`/projects/${project.slug}`}>
+
                 <article className="relative w-full h-full p-4 md:p-8">
                   <div className="flex items-center justify-between gap-2">
                     <div className="text-xs text-zinc-100">
@@ -105,14 +105,15 @@ export default function ProjectsPage() {
                     <strong>Banco de Dados:</strong> {project.database}
                   </p>
                   <div className="absolute bottom-4 md:bottom-8">
-
+                  
                   </div>
                 </article>
-              </Link>
+
             </Card>
           ))}
         </div>
       </div>
     </div>
+    
   );
 }
